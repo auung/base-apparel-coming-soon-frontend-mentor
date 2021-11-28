@@ -25,10 +25,10 @@ submit_btn.addEventListener("click" , function () {
 	let email = email_input.value;
 	if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
 		warning_p.style.display = "none";
-		error_img.style.display = "none";
+	} else if (email == "") {
+		error_img.style.display = "block";
 	} else {
 		warning_p.style.display = "block";
-		error_img.style.display = "block";
 	}
 })
 
