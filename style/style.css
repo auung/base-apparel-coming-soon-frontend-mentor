@@ -222,6 +222,9 @@ h2 {
 		width: 100%;
 		min-width: 50%;
 		height: 100%;
+		background-image: url(../images/bg-pattern-desktop.svg);
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 	.logo, 
