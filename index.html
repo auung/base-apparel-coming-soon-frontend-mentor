@@ -18,28 +18,35 @@
   </style> -->
 </head>
 <body>
-  <div class="container-main">
+  <div class="container-main"> 
     <div class="container-sub">
+
       <h1 class="logo">
         <a href="#">
           <img src="images/logo.svg" alt="Base Apparal">
         </a>
       </h1>
-    </div>
-    <div class="hero">
-      <img src="images/hero-mobile.jpg">
-    </div>
-    <div class="container-sub">
+
+      <div class="hero">
+        <picture>
+          <source srcset="images/hero-desktop.jpg" media="(min-width: 770px)">
+          <img src="images/hero-mobile.jpg" alt="hero-mobile">
+        </picture>
+      </div>
+      
       <div class="content">
         <h2>WE'RE<br><span class="coming-soon">COMING<br>SOON</span></h2>
         <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
         <div class="form">
           <input type="email" name="email" placeholder="Email Address">
-          <button>
+          <p class="warning">Please provide a valid email</p>
+          <img src="images/icon-error.svg" alt="error" class="error">
+          <button id="submit">
             <img src="images/icon-arrow.svg" alt="submit">
           </button>
         </div>
       </div>
+
     </div>
   </div>
   <script src="script/script.js"></script>
