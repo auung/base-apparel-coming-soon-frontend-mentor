@@ -209,7 +209,7 @@ h2 {
 @media (min-width: 770px) {
 	body {
 		width: 100vw;
-    	height: 100vh;
+		height: 100vh;
 	}
 
 	.container-main {
@@ -255,7 +255,7 @@ h2 {
 	}
 
 	.error {
-		top: 16px;
+		top: 15px;
 		right: 120px;
 	}
 
